@@ -12,6 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require web_worker
+//= require home
 //= require vendor/twitter-bootstrap/bootstrap
 //= require vendor/tether/tether
+//= require serviceworker-companion
