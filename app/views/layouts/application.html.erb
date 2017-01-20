@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Performantus</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+  </head>
+
+  <body>
+    <div id="main-container">
+      <header>
+        <%= render 'layouts/header' %>
+      </header>
+
+      <nav>
+        <%= render 'layouts/nav' %>
+      </nav>
+
+      <section class="body">
+        <%= yield %>
+      </section>
+
+      <footer class="footer">
+        <%= render 'layouts/footer' %>
+      </footer>
+
+      <%= javascript_include_tag 'application' %>
+    </div>
+  </body>
+</html>

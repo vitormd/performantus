@@ -1,0 +1,56 @@
+header, nav, footer {
+  background-color: black;
+  color: gray;
+  padding: 0.5em 0;
+}
+
+  nav > .container a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5em;
+  }
+
+    nav > .container a > p {
+      border-color: gray;
+      border-style: solid;
+      border-width: 1px;
+      margin-bottom: 0;
+    }
+
+html, body {
+  background-color: gray;
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+  body > div#main-container {
+      position: relative;
+      margin: 0 auto;
+      height: auto !important;
+      height: 100%;
+      min-height: 100%;
+  }
+
+footer {
+  bottom: 0;
+  // position: absolute;
+  width: 100%;
+}
+
+  footer > .container > p {
+    padding-top: 1rem;
+  }
+
+blockquote {
+    color: #eee;
+    font-style: italic;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
