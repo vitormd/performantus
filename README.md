@@ -1,24 +1,10 @@
-# README
+# Performantus
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Um projeto rails para testar implementações de tecnologias e padrões focados em performance.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [x] Sourced (non-gem) Twitter Bootstrap
+- [x] Service worker (gem)
+- [x] Web Worker (Sem padrão ainda)
+- [ ]  Non-Puma server. Provavelmente [Passenger 5 (raptor)](https://github.com/phusion/passenger)
+- [ ]  GZIP
+...
